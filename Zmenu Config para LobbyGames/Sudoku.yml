@@ -1,0 +1,440 @@
+name: '         &0 Salas Disponibles'
+size: 36
+
+items:
+  btn-0:
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0-9
+      - 17-18
+      - 26
+      - 28-35
+
+  btn-27:
+    slot: 27
+    sound: BLOCK_NOTE_BLOCK_PLING
+    consoleCommands:
+    - "zmenu open zmenu:minijuegos %player%"
+    item:
+      material: ARROW
+      name: '&cAtras'
+
+  btn-11:
+    slot: 11
+    commands: 
+    - "lg join sudoku 1 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSudoku ▸ &fSala &a#1  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSudoku&f donde la'
+        - ' &flógica y la concentración serán'
+        - ' &ftus mejores aliados.'
+        - ' &f'
+        - ' &8Completa el tablero colocando'
+        - ' &8cada número en su lugar correcto'
+        - ' &8sin repetir en filas o columnas.'
+        - ' &f'
+        - ' &f¡ Piensa cada movimiento, resuelve'
+        - ' &fel desafío y demuestra que tienes'
+        - ' &funa mente estratégica !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_sudoku_1_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+  btn-12:
+    slot: 12
+    commands: 
+    - "lg join sudoku 2 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSudoku ▸ &fSala &a#2  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSudoku&f donde la'
+        - ' &flógica y la concentración serán'
+        - ' &ftus mejores aliados.'
+        - ' &f'
+        - ' &8Completa el tablero colocando'
+        - ' &8cada número en su lugar correcto'
+        - ' &8sin repetir en filas o columnas.'
+        - ' &f'
+        - ' &f¡ Piensa cada movimiento, resuelve'
+        - ' &fel desafío y demuestra que tienes'
+        - ' &funa mente estratégica !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_sudoku_2_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-13:
+    slot: 13
+    commands: 
+    - "lg join sudoku 3 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSudoku ▸ &fSala &a#3  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSudoku&f donde la'
+        - ' &flógica y la concentración serán'
+        - ' &ftus mejores aliados.'
+        - ' &f'
+        - ' &8Completa el tablero colocando'
+        - ' &8cada número en su lugar correcto'
+        - ' &8sin repetir en filas o columnas.'
+        - ' &f'
+        - ' &f¡ Piensa cada movimiento, resuelve'
+        - ' &fel desafío y demuestra que tienes'
+        - ' &funa mente estratégica !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_sudoku_3_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-14:
+    slot: 14
+    commands: 
+    - "lg join sudoku 4 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSudoku ▸ &fSala &a#4  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSudoku&f donde la'
+        - ' &flógica y la concentración serán'
+        - ' &ftus mejores aliados.'
+        - ' &f'
+        - ' &8Completa el tablero colocando'
+        - ' &8cada número en su lugar correcto'
+        - ' &8sin repetir en filas o columnas.'
+        - ' &f'
+        - ' &f¡ Piensa cada movimiento, resuelve'
+        - ' &fel desafío y demuestra que tienes'
+        - ' &funa mente estratégica !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_sudoku_4_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-15:
+    slot: 15
+    commands: 
+    - "lg join sudoku 5 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSudoku ▸ &fSala &a#5  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSudoku&f donde la'
+        - ' &flógica y la concentración serán'
+        - ' &ftus mejores aliados.'
+        - ' &f'
+        - ' &8Completa el tablero colocando'
+        - ' &8cada número en su lugar correcto'
+        - ' &8sin repetir en filas o columnas.'
+        - ' &f'
+        - ' &f¡ Piensa cada movimiento, resuelve'
+        - ' &fel desafío y demuestra que tienes'
+        - ' &funa mente estratégica !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_sudoku_5_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-20:
+    slot: 20
+    commands: 
+    - "lg join sudoku 6 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSudoku ▸ &fSala &a#6  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSudoku&f donde la'
+        - ' &flógica y la concentración serán'
+        - ' &ftus mejores aliados.'
+        - ' &f'
+        - ' &8Completa el tablero colocando'
+        - ' &8cada número en su lugar correcto'
+        - ' &8sin repetir en filas o columnas.'
+        - ' &f'
+        - ' &f¡ Piensa cada movimiento, resuelve'
+        - ' &fel desafío y demuestra que tienes'
+        - ' &funa mente estratégica !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_sudoku_6_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-21:
+    slot: 21
+    commands: 
+    - "lg join sudoku 7 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSudoku ▸ &fSala &a#7  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSudoku&f donde la'
+        - ' &flógica y la concentración serán'
+        - ' &ftus mejores aliados.'
+        - ' &f'
+        - ' &8Completa el tablero colocando'
+        - ' &8cada número en su lugar correcto'
+        - ' &8sin repetir en filas o columnas.'
+        - ' &f'
+        - ' &f¡ Piensa cada movimiento, resuelve'
+        - ' &fel desafío y demuestra que tienes'
+        - ' &funa mente estratégica !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_sudoku_7_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-22:
+    slot: 22
+    commands: 
+    - "lg join sudoku 8 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSudoku ▸ &fSala &a#8  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSudoku&f donde la'
+        - ' &flógica y la concentración serán'
+        - ' &ftus mejores aliados.'
+        - ' &f'
+        - ' &8Completa el tablero colocando'
+        - ' &8cada número en su lugar correcto'
+        - ' &8sin repetir en filas o columnas.'
+        - ' &f'
+        - ' &f¡ Piensa cada movimiento, resuelve'
+        - ' &fel desafío y demuestra que tienes'
+        - ' &funa mente estratégica !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_sudoku_8_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-23:
+    slot: 23
+    commands: 
+    - "lg join sudoku 9 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSudoku ▸ &fSala &a#9  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSudoku&f donde la'
+        - ' &flógica y la concentración serán'
+        - ' &ftus mejores aliados.'
+        - ' &f'
+        - ' &8Completa el tablero colocando'
+        - ' &8cada número en su lugar correcto'
+        - ' &8sin repetir en filas o columnas.'
+        - ' &f'
+        - ' &f¡ Piensa cada movimiento, resuelve'
+        - ' &fel desafío y demuestra que tienes'
+        - ' &funa mente estratégica !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_sudoku_9_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-24:
+    slot: 24
+    commands: 
+    - "lg join sudoku 10 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSudoku ▸ &fSala &a#10 &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSudoku&f donde la'
+        - ' &flógica y la concentración serán'
+        - ' &ftus mejores aliados.'
+        - ' &f'
+        - ' &8Completa el tablero colocando'
+        - ' &8cada número en su lugar correcto'
+        - ' &8sin repetir en filas o columnas.'
+        - ' &f'
+        - ' &f¡ Piensa cada movimiento, resuelve'
+        - ' &fel desafío y demuestra que tienes'
+        - ' &funa mente estratégica !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_sudoku_10_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true

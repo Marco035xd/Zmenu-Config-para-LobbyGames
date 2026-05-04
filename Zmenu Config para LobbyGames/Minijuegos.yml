@@ -1,0 +1,212 @@
+name: '&0Menú▸ Minijuegos'
+size: 36
+items:
+  btn-0:
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0-9
+      - 17-18
+      - 26
+      - 28-34
+  btn-27:
+    slot: 27
+    consoleCommands:
+    - "zmenu open zmenu:minijuegos"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: ARROW
+      name: '&cAtras'
+  btn-35:
+    slot: 35
+    item:
+      material: WRITABLE_BOOK
+      name: ' &a¿Que son los minijuego? &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fEntra a un mundo lleno'
+        - ' &fde desafíos y diversión,'
+        - ' &fdonde cada minijuego'
+        - ' &fpondrá a prueba tus'
+        - ' &fhabilidades y reflejos.'
+        - '&f'
+        - ' &fCompite, mejora y demuestra'
+        - ' &fde lo que eres capaz en'
+        - ' &fcada reto que enfrentes.'
+        - '&f'
+        - ' &7▲ ¡ Disfruta los minigames !'
+  btn-11:
+    slot: 11
+    consoleCommands:
+    - "zmenu open zmenu:Sudoku %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: BOOK
+      name: '&fMinijuego ▸ &aSudoku &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fJuego de lógica donde '
+        - ' &fdebes llenar una cuadrícula '
+        - ' &fcon números sin repetirlos '
+        - ' &fen filas, columnas ni bloques.'
+        - '&f'
+        - ' &7▲ ¡ Click para usar!'
+  btn-12:
+    slot: 12
+    consoleCommands:
+    - "zmenu open zmenu:Connect4 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: YELLOW_CONCRETE
+      name: '&fMinijuego ▸ &aConnect 4 &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fColoca fichas por turnos '
+        - ' &fhasta lograr alinear '
+        - ' &fcuatro en línea horizontal, '
+        - ' &fvertical o diagonal.'
+        - '&f'
+        - ' &7▲ ¡ Click para usar!'
+  btn-13:
+    slot: 13
+    consoleCommands:
+    - 'zmenu open zmenu:soccer_grupos %player%'
+    #- 'zmenu open zmenu:soccer %player%' /zmenu open zmenu:soccer_grupos
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: SNOWBALL
+      name: '&fMinijuego ▸ &aSoccer &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fCompite en equipo para '
+        - ' &fmarcar goles llevando '
+        - ' &fel balón a la portería '
+        - ' &fdel rival.'
+        - '&f'
+        - ' &7▲ ¡ Click para usar!'
+  btn-14:
+    slot: 14
+    consoleCommands:
+    - 'zmenu open zmenu:spleef %player%'
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: IRON_SHOVEL
+      name: '&fMinijuego ▸ &aSpleef &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fRompe el suelo bajo '
+        - ' &ftus oponentes para '
+        - ' &fhacerlos caer mientras '
+        - ' &fevitas caer tú.'
+        - '&f'
+        - ' &7▲ ¡ Click para usar!'
+      flags:
+      - "HIDE_ATTRIBUTES"
+  btn-15:
+    slot: 15
+    consoleCommands:
+    - 'zmenu open zmenu:snake %player%'
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: LEAD
+      name: '&fMinijuego ▸ &aSnake &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fControla una serpiente '
+        - ' &fque crece al comer, '
+        - ' &fevitando chocar con '
+        - ' &fparedes o consigo misma.'
+        - '&f'
+        - ' &7▲ ¡ Click para usar!'
+  btn-20:
+    slot: 20
+    consoleCommands:
+    - 'zmenu open zmenu:pool %player%'
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: ENDER_PEARL
+      name: '&fMinijuego ▸ &aPool &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fGolpea las bolas con '
+        - ' &fprecisión para meterlas '
+        - ' &fen los agujeros de '
+        - ' &fla mesa de billar.'
+        - '&f'
+        - ' &7▲ ¡ Click para usar!'
+  btn-22:
+    slot: 22
+    consoleCommands:
+    - "zmenu open zmenu:minesweeper %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: TNT
+      name: '&fMinijuego ▸ &aMinesweeper &f(&e✔&f)'
+
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fDescubre casillas sin '
+        - ' &factivar minas usando '
+        - ' &fnúmeros como pistas '
+        - ' &fpara encontrarlas.'
+        - '&f'
+        - ' &7▲ ¡ Click para usar!'
+  btn-23:
+    slot: 23
+    consoleCommands:
+    - "zmenu open zmenu:2048 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: GOLD_BLOCK
+      name: '&fMinijuego ▸ &a2048 &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fCombina números en una '
+        - ' &fcuadrícula hasta llegar '
+        - ' &fal valor 2048 sin '
+        - ' &fquedarte sin movimientos.'
+        - '&f'
+        - ' &7▲ ¡ Click para usar!'
+  btn-24:
+    slot: 24
+    consoleCommands:
+    - "zmenu open zmenu:TicTacToe %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: RED_WOOL
+      name: '&fMinijuego ▸ &aTic Tac Toe &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fAlinea tres símbolos '
+        - ' &fen fila antes que tu '
+        - ' &foponente en una '
+        - ' &fcuadrícula 3x3.'
+        - '&f'
+        - ' &7▲ ¡ Click para usar!'
+  btn-21:
+    slot: 21
+    consoleCommands:
+    - "zmenu open zmenu:clicker %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: DARK_OAK_BUTTON
+      name: '&fMinijuego ▸ &aClicker &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fHaz clic repetidamente '
+        - ' &fpara generar puntos y '
+        - ' &fmejorar tu progreso '
+        - ' &fcon mejoras.'
+        - '&f'
+        - ' &7▲ ¡ Click para usar!'

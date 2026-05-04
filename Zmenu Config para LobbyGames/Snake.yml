@@ -1,0 +1,440 @@
+name: '         &0 Salas Disponibles'
+size: 36
+
+items:
+  btn-0:
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0-9
+      - 17-18
+      - 26
+      - 28-35
+
+  btn-27:
+    slot: 27
+    sound: BLOCK_NOTE_BLOCK_PLING
+    consoleCommands:
+    - "zmenu open zmenu:minijuegos %player%"
+    item:
+      material: ARROW
+      name: '&cAtras'
+
+  btn-11:
+    slot: 11
+    commands: 
+    - "lg join snake 1 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSnake ▸ &fSala &a#1  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSnake&f donde la'
+        - ' &fagilidad y la estrategia serán'
+        - ' &fclave para sobrevivir.'
+        - ' &f'
+        - ' &8Controla la serpiente, recoge'
+        - ' &8puntos y evita chocar contra'
+        - ' &8las paredes o contra ti mismo.'
+        - ' &f'
+        - ' &f¡ Mientras más creces, más difícil'
+        - ' &fserá moverte, así que mantén la'
+        - ' &fconcentración hasta el final !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_snake_1_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+  btn-12:
+    slot: 12
+    commands: 
+    - "lg join snake 2 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSnake ▸ &fSala &a#2  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSnake&f donde la'
+        - ' &fagilidad y la estrategia serán'
+        - ' &fclave para sobrevivir.'
+        - ' &f'
+        - ' &8Controla la serpiente, recoge'
+        - ' &8puntos y evita chocar contra'
+        - ' &8las paredes o contra ti mismo.'
+        - ' &f'
+        - ' &f¡ Mientras más creces, más difícil'
+        - ' &fserá moverte, así que mantén la'
+        - ' &fconcentración hasta el final !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_snake_2_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-13:
+    slot: 13
+    commands: 
+    - "lg join snake 3 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSnake ▸ &fSala &a#3  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSnake&f donde la'
+        - ' &fagilidad y la estrategia serán'
+        - ' &fclave para sobrevivir.'
+        - ' &f'
+        - ' &8Controla la serpiente, recoge'
+        - ' &8puntos y evita chocar contra'
+        - ' &8las paredes o contra ti mismo.'
+        - ' &f'
+        - ' &f¡ Mientras más creces, más difícil'
+        - ' &fserá moverte, así que mantén la'
+        - ' &fconcentración hasta el final !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_snake_3_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-14:
+    slot: 14
+    commands: 
+    - "lg join snake 4 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSnake ▸ &fSala &a#4  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSnake&f donde la'
+        - ' &fagilidad y la estrategia serán'
+        - ' &fclave para sobrevivir.'
+        - ' &f'
+        - ' &8Controla la serpiente, recoge'
+        - ' &8puntos y evita chocar contra'
+        - ' &8las paredes o contra ti mismo.'
+        - ' &f'
+        - ' &f¡ Mientras más creces, más difícil'
+        - ' &fserá moverte, así que mantén la'
+        - ' &fconcentración hasta el final !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_snake_4_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-15:
+    slot: 15
+    commands: 
+    - "lg join snake 5 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSnake ▸ &fSala &a#5  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSnake&f donde la'
+        - ' &fagilidad y la estrategia serán'
+        - ' &fclave para sobrevivir.'
+        - ' &f'
+        - ' &8Controla la serpiente, recoge'
+        - ' &8puntos y evita chocar contra'
+        - ' &8las paredes o contra ti mismo.'
+        - ' &f'
+        - ' &f¡ Mientras más creces, más difícil'
+        - ' &fserá moverte, así que mantén la'
+        - ' &fconcentración hasta el final !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_snake_5_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-20:
+    slot: 20
+    commands: 
+    - "lg join snake 6 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSnake ▸ &fSala &a#6  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSnake&f donde la'
+        - ' &fagilidad y la estrategia serán'
+        - ' &fclave para sobrevivir.'
+        - ' &f'
+        - ' &8Controla la serpiente, recoge'
+        - ' &8puntos y evita chocar contra'
+        - ' &8las paredes o contra ti mismo.'
+        - ' &f'
+        - ' &f¡ Mientras más creces, más difícil'
+        - ' &fserá moverte, así que mantén la'
+        - ' &fconcentración hasta el final !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_snake_6_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-21:
+    slot: 21
+    commands: 
+    - "lg join snake 7 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSnake ▸ &fSala &a#7  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSnake&f donde la'
+        - ' &fagilidad y la estrategia serán'
+        - ' &fclave para sobrevivir.'
+        - ' &f'
+        - ' &8Controla la serpiente, recoge'
+        - ' &8puntos y evita chocar contra'
+        - ' &8las paredes o contra ti mismo.'
+        - ' &f'
+        - ' &f¡ Mientras más creces, más difícil'
+        - ' &fserá moverte, así que mantén la'
+        - ' &fconcentración hasta el final !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_snake_7_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-22:
+    slot: 22
+    commands: 
+    - "lg join snake 8 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSnake ▸ &fSala &a#8  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSnake&f donde la'
+        - ' &fagilidad y la estrategia serán'
+        - ' &fclave para sobrevivir.'
+        - ' &f'
+        - ' &8Controla la serpiente, recoge'
+        - ' &8puntos y evita chocar contra'
+        - ' &8las paredes o contra ti mismo.'
+        - ' &f'
+        - ' &f¡ Mientras más creces, más difícil'
+        - ' &fserá moverte, así que mantén la'
+        - ' &fconcentración hasta el final !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_snake_8_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-23:
+    slot: 23
+    commands: 
+    - "lg join snake 9 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSnake ▸ &fSala &a#9  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSnake&f donde la'
+        - ' &fagilidad y la estrategia serán'
+        - ' &fclave para sobrevivir.'
+        - ' &f'
+        - ' &8Controla la serpiente, recoge'
+        - ' &8puntos y evita chocar contra'
+        - ' &8las paredes o contra ti mismo.'
+        - ' &f'
+        - ' &f¡ Mientras más creces, más difícil'
+        - ' &fserá moverte, así que mantén la'
+        - ' &fconcentración hasta el final !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_snake_9_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-24:
+    slot: 24
+    commands: 
+    - "lg join snake 10 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aSnake ▸ &fSala &a#10 &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bSnake&f donde la'
+        - ' &fagilidad y la estrategia serán'
+        - ' &fclave para sobrevivir.'
+        - ' &f'
+        - ' &8Controla la serpiente, recoge'
+        - ' &8puntos y evita chocar contra'
+        - ' &8las paredes o contra ti mismo.'
+        - ' &f'
+        - ' &f¡ Mientras más creces, más difícil'
+        - ' &fserá moverte, así que mantén la'
+        - ' &fconcentración hasta el final !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_snake_10_playercount%&f/&81'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true

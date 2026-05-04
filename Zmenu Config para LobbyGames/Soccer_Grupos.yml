@@ -1,0 +1,166 @@
+name: '        &0 Soccer ▸ Grupos'
+size: 36
+
+items:
+  btn-0:
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+      name: '&f'
+    slots:
+      - 0-9
+      - 17-18
+      - 26
+      - 28-35
+
+  btn-27:
+    slot: 27
+    consoleCommands:
+      - "zmenu open zmenu:minijuegos %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: ARROW
+      name: '&cAtrás'
+      lore:
+        - '&8Navegación'
+        - '&f'
+        - ' &7Regresa al menú principal'
+        - ' &7de minijuegos.'
+        - '&f'
+        - ' &7▲ ¡ Click para volver !'
+
+  btn-11:
+    slot: 11
+    consoleCommands:
+    - 'zmenu open zmenu:soccer %player%'
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: LIME_DYE
+      name: '&aSoccer ▸ &fGrupo &a1v1 &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fModo rápido para jugadores que'
+        - ' &fquieren demostrar su habilidad'
+        - ' &fen un duelo directo.'
+        - '&f'
+        - ' &8▸ &fModalidad: &a1v1'
+        - ' &8▸ &fJugadores máximos: &a2'
+        - ' &8▸ &fArena: &a#1'
+        - '&f'
+        - ' &fControla el balón, defiende tu'
+        - ' &farco y anota antes que tu rival.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼'
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃' 
+        - '&f'
+        - ' &7▲ ¡ Click para jugar 1v1 !'
+    close-inventory: true
+
+  btn-12:
+    slot: 12
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: YELLOW_DYE
+      name: '&eSoccer ▸ &fGrupo &e2v2 &f(&c✘&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fForma equipo con otro jugador y'
+        - ' &fcombina pases, defensa y ataques'
+        - ' &fpara superar al equipo rival.'
+        - '&f'
+        - ' &8▸ &fModalidad: &e2v2'
+        - ' &8▸ &fJugadores máximos: &e4'
+        - ' &8▸ &fArena: &e#2'
+        - '&f'
+        - ' &c✘ &c¡ Próximamente !'
+        - '&f'
+        - ' &7Esta modalidad todavía no está'
+        - ' &7disponible para jugar.'
+
+  btn-13:
+    slot: 13
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: ORANGE_DYE
+      name: '&6Soccer ▸ &fGrupo &63v3 &f(&c✘&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fUn modo equilibrado con más acción,'
+        - ' &fmás pases y más oportunidades'
+        - ' &fpara cambiar el marcador.'
+        - '&f'
+        - ' &8▸ &fModalidad: &63v3'
+        - ' &8▸ &fJugadores máximos: &66'
+        - ' &8▸ &fArena: &6#3'
+        - '&f'
+        - ' &c✘ &c¡ Próximamente !'
+        - '&f'
+        - ' &7Esta modalidad todavía no está'
+        - ' &7disponible para jugar.'
+
+  btn-14:
+    slot: 14
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: RED_DYE
+      name: '&cSoccer ▸ &fGrupo &c4v4 &f(&c✘&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fPartida intensa para equipos grandes,'
+        - ' &fdonde la estrategia y el orden'
+        - ' &fpueden decidir la victoria.'
+        - '&f'
+        - ' &8▸ &fModalidad: &c4v4'
+        - ' &8▸ &fJugadores máximos: &c8'
+        - ' &8▸ &fArena: &c#4'
+        - '&f'
+        - ' &c✘ &c¡ Próximamente !'
+        - '&f'
+        - ' &7Esta modalidad todavía no está'
+        - ' &7disponible para jugar.'
+
+  btn-15:
+    slot: 15
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: PURPLE_DYE
+      name: '&dSoccer ▸ &fGrupo &d5v5 &f(&c✘&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fModo grande para quienes buscan'
+        - ' &funa partida con más jugadores,'
+        - ' &fmás presión y más emoción.'
+        - '&f'
+        - ' &8▸ &fModalidad: &d5v5'
+        - ' &8▸ &fJugadores máximos: &d10'
+        - ' &8▸ &fArena: &d#5'
+        - '&f'
+        - ' &c✘ &c¡ Próximamente !'
+        - '&f'
+        - ' &7Esta modalidad todavía no está'
+        - ' &7disponible para jugar.'
+
+  btn-22:
+    slot: 22
+    item:
+      material: PAPER
+      name: '&bInformación ▸ &fSoccer'
+      lore:
+        - '&8Ayuda'
+        - '&f'
+        - ' &fElige el grupo en el que quieres'
+        - ' &fjugar según la cantidad de'
+        - ' &fjugadores por equipo.'
+        - '&f'
+        - ' &8▸ &a1v1 &7= &fDisponible'
+        - ' &8▸ &e2v2 &7= &cPróximamente'
+        - ' &8▸ &63v3 &7= &cPróximamente'
+        - ' &8▸ &c4v4 &7= &cPróximamente'
+        - ' &8▸ &d5v5 &7= &cPróximamente'
+        - '&f'
+        - ' &7Selecciona una modalidad disponible.'

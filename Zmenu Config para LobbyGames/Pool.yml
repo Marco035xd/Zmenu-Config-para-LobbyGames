@@ -1,0 +1,400 @@
+name: '         &0 Salas Disponibles'
+size: 36
+
+items:
+  btn-0:
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0-9
+      - 17-18
+      - 26
+      - 28-35
+
+  btn-27:
+    slot: 27
+    consoleCommands:
+    - "zmenu open zmenu:minijuegos %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: ARROW
+      name: '&cAtras'
+
+  btn-11:
+    slot: 11
+    commands: 
+    - "lg join pool 1"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aPool ▸ &fSala &a#1  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bPool&f &fdonde la '
+        - ' &fprecisión y la estrategia se combinan'
+        - ' &fpara llevar las bolas al agujero.'
+        - '&f'
+        - ' &fGolpea las bolas con precisión '
+        - ' &fy asegúrate de meterlas en el orden '
+        - ' &fcorrecto.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_pool_1_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+  btn-12:
+    slot: 12
+    commands: 
+    - "lg join pool 2"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aPool ▸ &fSala &a#2  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bPool&f &fdonde la '
+        - ' &fprecisión y la estrategia se combinan'
+        - ' &fpara llevar las bolas al agujero.'
+        - '&f'
+        - ' &fGolpea las bolas con precisión '
+        - ' &fy asegúrate de meterlas en el orden '
+        - ' &fcorrecto.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_pool_2_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-13:
+    slot: 13
+    commands: 
+    - "lg join pool 3"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aPool ▸ &fSala &a#3  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bPool&f &fdonde la '
+        - ' &fprecisión y la estrategia se combinan'
+        - ' &fpara llevar las bolas al agujero.'
+        - '&f'
+        - ' &fGolpea las bolas con precisión '
+        - ' &fy asegúrate de meterlas en el orden '
+        - ' &fcorrecto.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_pool_3_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-14:
+    slot: 14
+    commands: 
+    - "lg join pool 4"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aPool ▸ &fSala &a#4  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bPool&f &fdonde la '
+        - ' &fprecisión y la estrategia se combinan'
+        - ' &fpara llevar las bolas al agujero.'
+        - '&f'
+        - ' &fGolpea las bolas con precisión '
+        - ' &fy asegúrate de meterlas en el orden '
+        - ' &fcorrecto.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_pool_4_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-15:
+    slot: 15
+    commands: 
+    - "lg join pool 5"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aPool ▸ &fSala &a#5  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bPool&f &fdonde la '
+        - ' &fprecisión y la estrategia se combinan'
+        - ' &fpara llevar las bolas al agujero.'
+        - '&f'
+        - ' &fGolpea las bolas con precisión '
+        - ' &fy asegúrate de meterlas en el orden '
+        - ' &fcorrecto.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_pool_5_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-20:
+    slot: 20
+    commands: 
+    - "lg join pool 6"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aPool ▸ &fSala &a#6  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bPool&f &fdonde la '
+        - ' &fprecisión y la estrategia se combinan'
+        - ' &fpara llevar las bolas al agujero.'
+        - '&f'
+        - ' &fGolpea las bolas con precisión '
+        - ' &fy asegúrate de meterlas en el orden '
+        - ' &fcorrecto.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_pool_6_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-21:
+    slot: 21
+    commands: 
+    - "lg join pool 7"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aPool ▸ &fSala &a#7  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bPool&f &fdonde la '
+        - ' &fprecisión y la estrategia se combinan'
+        - ' &fpara llevar las bolas al agujero.'
+        - '&f'
+        - ' &fGolpea las bolas con precisión '
+        - ' &fy asegúrate de meterlas en el orden '
+        - ' &fcorrecto.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_pool_7_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-22:
+    slot: 22
+    commands: 
+    - "lg join pool 8"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aPool ▸ &fSala &a#8  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bPool&f &fdonde la '
+        - ' &fprecisión y la estrategia se combinan'
+        - ' &fpara llevar las bolas al agujero.'
+        - '&f'
+        - ' &fGolpea las bolas con precisión '
+        - ' &fy asegúrate de meterlas en el orden '
+        - ' &fcorrecto.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_pool_8_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-23:
+    slot: 23
+    commands: 
+    - "lg join pool 9"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aPool ▸ &fSala &a#9  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bPool&f &fdonde la '
+        - ' &fprecisión y la estrategia se combinan'
+        - ' &fpara llevar las bolas al agujero.'
+        - '&f'
+        - ' &fGolpea las bolas con precisión '
+        - ' &fy asegúrate de meterlas en el orden '
+        - ' &fcorrecto.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_pool_9_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-24:
+    slot: 24
+    commands: 
+    - "lg join pool 10"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aPool ▸ &fSala &a#10 &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bPool&f &fdonde la '
+        - ' &fprecisión y la estrategia se combinan'
+        - ' &fpara llevar las bolas al agujero.'
+        - '&f'
+        - ' &fGolpea las bolas con precisión '
+        - ' &fy asegúrate de meterlas en el orden '
+        - ' &fcorrecto.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_pool_10_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true

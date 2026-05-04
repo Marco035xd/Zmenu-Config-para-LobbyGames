@@ -1,0 +1,440 @@
+name: '         &0 Salas Disponibles'
+size: 36
+
+items:
+  btn-0:
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0-9
+      - 17-18
+      - 26
+      - 28-35
+
+  btn-27:
+    slot: 27
+    sound: BLOCK_NOTE_BLOCK_PLING
+    consoleCommands:
+    - "zmenu open zmenu:minijuegos %player%"
+    item:
+      material: ARROW
+      name: '&cAtras'
+
+  btn-11:
+    slot: 11
+    commands: 
+    - "lg join tictactoe 1 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aTicTacToe ▸ &fSala &a#1  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bTicTacToe&f donde la'
+        - ' &fastucia y cada movimiento pueden'
+        - ' &fdecidir la partida.'
+        - ' &f'
+        - ' &8Marca tu casilla, forma una línea'
+        - ' &8de tres y evita que tu rival'
+        - ' &8complete la suya primero.'
+        - ' &f'
+        - ' &f¡ Piensa rápido, bloquea jugadas'
+        - ' &fy consigue la combinación perfecta'
+        - ' &fpara ganar !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_tictactoe_1_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+  btn-12:
+    slot: 12
+    commands: 
+    - "lg join tictactoe 2 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aTicTacToe ▸ &fSala &a#2  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bTicTacToe&f donde la'
+        - ' &fastucia y cada movimiento pueden'
+        - ' &fdecidir la partida.'
+        - ' &f'
+        - ' &8Marca tu casilla, forma una línea'
+        - ' &8de tres y evita que tu rival'
+        - ' &8complete la suya primero.'
+        - ' &f'
+        - ' &f¡ Piensa rápido, bloquea jugadas'
+        - ' &fy consigue la combinación perfecta'
+        - ' &fpara ganar !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_tictactoe_2_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-13:
+    slot: 13
+    commands: 
+    - "lg join tictactoe 3 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aTicTacToe ▸ &fSala &a#3  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bTicTacToe&f donde la'
+        - ' &fastucia y cada movimiento pueden'
+        - ' &fdecidir la partida.'
+        - ' &f'
+        - ' &8Marca tu casilla, forma una línea'
+        - ' &8de tres y evita que tu rival'
+        - ' &8complete la suya primero.'
+        - ' &f'
+        - ' &f¡ Piensa rápido, bloquea jugadas'
+        - ' &fy consigue la combinación perfecta'
+        - ' &fpara ganar !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_tictactoe_3_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-14:
+    slot: 14
+    commands: 
+    - "lg join tictactoe 4 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aTicTacToe ▸ &fSala &a#4  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bTicTacToe&f donde la'
+        - ' &fastucia y cada movimiento pueden'
+        - ' &fdecidir la partida.'
+        - ' &f'
+        - ' &8Marca tu casilla, forma una línea'
+        - ' &8de tres y evita que tu rival'
+        - ' &8complete la suya primero.'
+        - ' &f'
+        - ' &f¡ Piensa rápido, bloquea jugadas'
+        - ' &fy consigue la combinación perfecta'
+        - ' &fpara ganar !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_tictactoe_4_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-15:
+    slot: 15
+    commands: 
+    - "lg join tictactoe 5 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aTicTacToe ▸ &fSala &a#5  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bTicTacToe&f donde la'
+        - ' &fastucia y cada movimiento pueden'
+        - ' &fdecidir la partida.'
+        - ' &f'
+        - ' &8Marca tu casilla, forma una línea'
+        - ' &8de tres y evita que tu rival'
+        - ' &8complete la suya primero.'
+        - ' &f'
+        - ' &f¡ Piensa rápido, bloquea jugadas'
+        - ' &fy consigue la combinación perfecta'
+        - ' &fpara ganar !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_tictactoe_5_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-20:
+    slot: 20
+    commands: 
+    - "lg join tictactoe 6 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aTicTacToe ▸ &fSala &a#6  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bTicTacToe&f donde la'
+        - ' &fastucia y cada movimiento pueden'
+        - ' &fdecidir la partida.'
+        - ' &f'
+        - ' &8Marca tu casilla, forma una línea'
+        - ' &8de tres y evita que tu rival'
+        - ' &8complete la suya primero.'
+        - ' &f'
+        - ' &f¡ Piensa rápido, bloquea jugadas'
+        - ' &fy consigue la combinación perfecta'
+        - ' &fpara ganar !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_tictactoe_6_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-21:
+    slot: 21
+    commands: 
+    - "lg join tictactoe 7 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aTicTacToe ▸ &fSala &a#7  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bTicTacToe&f donde la'
+        - ' &fastucia y cada movimiento pueden'
+        - ' &fdecidir la partida.'
+        - ' &f'
+        - ' &8Marca tu casilla, forma una línea'
+        - ' &8de tres y evita que tu rival'
+        - ' &8complete la suya primero.'
+        - ' &f'
+        - ' &f¡ Piensa rápido, bloquea jugadas'
+        - ' &fy consigue la combinación perfecta'
+        - ' &fpara ganar !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_tictactoe_7_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-22:
+    slot: 22
+    commands: 
+    - "lg join tictactoe 8 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aTicTacToe ▸ &fSala &a#8  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bTicTacToe&f donde la'
+        - ' &fastucia y cada movimiento pueden'
+        - ' &fdecidir la partida.'
+        - ' &f'
+        - ' &8Marca tu casilla, forma una línea'
+        - ' &8de tres y evita que tu rival'
+        - ' &8complete la suya primero.'
+        - ' &f'
+        - ' &f¡ Piensa rápido, bloquea jugadas'
+        - ' &fy consigue la combinación perfecta'
+        - ' &fpara ganar !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_tictactoe_8_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-23:
+    slot: 23
+    commands: 
+    - "lg join tictactoe 9 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aTicTacToe ▸ &fSala &a#9  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bTicTacToe&f donde la'
+        - ' &fastucia y cada movimiento pueden'
+        - ' &fdecidir la partida.'
+        - ' &f'
+        - ' &8Marca tu casilla, forma una línea'
+        - ' &8de tres y evita que tu rival'
+        - ' &8complete la suya primero.'
+        - ' &f'
+        - ' &f¡ Piensa rápido, bloquea jugadas'
+        - ' &fy consigue la combinación perfecta'
+        - ' &fpara ganar !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_tictactoe_9_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-24:
+    slot: 24
+    commands: 
+    - "lg join tictactoe 10 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aTicTacToe ▸ &fSala &a#10 &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'  
+        - ' &fBienvenido al &bTicTacToe&f donde la'
+        - ' &fastucia y cada movimiento pueden'
+        - ' &fdecidir la partida.'
+        - ' &f'
+        - ' &8Marca tu casilla, forma una línea'
+        - ' &8de tres y evita que tu rival'
+        - ' &8complete la suya primero.'
+        - ' &f'
+        - ' &f¡ Piensa rápido, bloquea jugadas'
+        - ' &fy consigue la combinación perfecta'
+        - ' &fpara ganar !'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_tictactoe_10_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true

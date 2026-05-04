@@ -1,0 +1,387 @@
+name: '         &0 Salas Disponibles'
+size: 36
+
+items:
+  btn-0:
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0-9
+      - 17-18
+      - 26
+      - 28-35
+
+  btn-27:
+    slot: 27
+    consoleCommands:
+    - "zmenu open zmenu:minijuegos %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: ARROW
+      name: '&cAtras'
+
+  btn-11:
+    slot: 11
+    commands: 
+    - "lg join spleef 1 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aspleef ▸ &fSala &a#1  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fBienvenido al &espleef&f'
+        - ' &fdonde la lógica y la suerte se combinan'
+        - ' &fpara descubrir las casillas sin explotar.'
+        - '&f'
+        - ' &fRevela las casillas con cuidado y usa las pistas'
+        - ' &fpara evitar caer en una mina.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_spleef_1_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+  btn-12:
+    slot: 12
+    commands: 
+    - "lg join spleef 2 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aspleef ▸ &fSala &a#2  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fBienvenido al &espleef&f'
+        - ' &fdonde la lógica y la suerte se combinan'
+        - ' &fpara descubrir las casillas sin explotar.'
+        - '&f'
+        - ' &fRevela las casillas con cuidado y usa las pistas'
+        - ' &fpara evitar caer en una mina.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_spleef_2_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-13:
+    slot: 13
+    commands: 
+    - "lg join spleef 3 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aspleef ▸ &fSala &a#3  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fBienvenido al &espleef&f'
+        - ' &fdonde la lógica y la suerte se combinan'
+        - ' &fpara descubrir las casillas sin explotar.'
+        - '&f'
+        - ' &fRevela las casillas con cuidado y usa las pistas'
+        - ' &fpara evitar caer en una mina.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_spleef_3_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-14:
+    slot: 14
+    commands: 
+    - "lg join spleef 4 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aspleef ▸ &fSala &a#4  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fBienvenido al &espleef&f'
+        - ' &fdonde la lógica y la suerte se combinan'
+        - ' &fpara descubrir las casillas sin explotar.'
+        - '&f'
+        - ' &fRevela las casillas con cuidado y usa las pistas'
+        - ' &fpara evitar caer en una mina.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_spleef_4_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-15:
+    slot: 15
+    commands: 
+    - "lg join spleef 5 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aspleef ▸ &fSala &a#5  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fBienvenido al &espleef&f'
+        - ' &fdonde la lógica y la suerte se combinan'
+        - ' &fpara descubrir las casillas sin explotar.'
+        - '&f'
+        - ' &fRevela las casillas con cuidado y usa las pistas'
+        - ' &fpara evitar caer en una mina.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_spleef_5_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-20:
+    slot: 20
+    commands: 
+    - "lg join spleef 6 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aspleef ▸ &fSala &a#6  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fBienvenido al &espleef&f'
+        - ' &fdonde la lógica y la suerte se combinan'
+        - ' &fpara descubrir las casillas sin explotar.'
+        - '&f'
+        - ' &fRevela las casillas con cuidado y usa las pistas'
+        - ' &fpara evitar caer en una mina.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_spleef_6_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-21:
+    slot: 21
+    commands: 
+    - "lg join spleef 7 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aspleef ▸ &fSala &a#7  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fBienvenido al &espleef&f'
+        - ' &fdonde la lógica y la suerte se combinan'
+        - ' &fpara descubrir las casillas sin explotar.'
+        - '&f'
+        - ' &fRevela las casillas con cuidado y usa las pistas'
+        - ' &fpara evitar caer en una mina.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_spleef_7_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-22:
+    slot: 22
+    commands: 
+    - "lg join spleef 8 %player%"
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aspleef ▸ &fSala &a#8  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fBienvenido al &espleef&f'
+        - ' &fdonde la lógica y la suerte se combinan'
+        - ' &fpara descubrir las casillas sin explotar.'
+        - '&f'
+        - ' &fRevela las casillas con cuidado y usa las pistas'
+        - ' &fpara evitar caer en una mina.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a%lobbygames_spleef_8_playercount%&f/&82'
+        - '&f'
+        - ' &7▲ ¡ Click para unirse !'
+    close-inventory: true
+
+  btn-23:
+    slot: 23
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aspleef ▸ &fSala &a#9  &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fBienvenido al &espleef&f'
+        - ' &fdonde la lógica y la suerte se combinan'
+        - ' &fpara descubrir las casillas sin explotar.'
+        - '&f'
+        - ' &fRevela las casillas con cuidado y usa las pistas'
+        - ' &fpara evitar caer en una mina.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a0&f/&81'
+        - '&f'
+        - ' &c▲ ¡ Proximamente !'
+    #close-inventory: true
+
+  btn-24:
+    slot: 24
+    sound: BLOCK_NOTE_BLOCK_PLING
+    item:
+      material: FIREWORK_STAR
+      hide-additional-tooltip: true
+      firework:
+        star: true
+        flicker: false
+        trail: false
+        type: BALL
+        colors:
+          - 255,123,47,190
+        fadeColors:
+          - 255,123,47,190
+      name: '&aspleef ▸ &fSala &a#10 &f(&e✔&f)'
+      lore:
+        - '&8Información'
+        - '&f'
+        - ' &fBienvenido al &espleef&f'
+        - ' &fdonde la lógica y la suerte se combinan'
+        - ' &fpara descubrir las casillas sin explotar.'
+        - '&f'
+        - ' &fRevela las casillas con cuidado y usa las pistas'
+        - ' &fpara evitar caer en una mina.'
+        - '&f'
+        - ' &a▼ &aRecompensas &a▼ '
+        - ' &f'
+        - ' &8▸ &a+10,000,000 ⛃'
+        - ' &f'
+        - ' &fJugadores: &a0&f/&81'
+        - '&f'
+        - ' &c▲ ¡ Proximamente !'
+    #close-inventory: true
