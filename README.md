@@ -4,6 +4,8 @@ Esta configuración personalizada de ZMenu está diseñada específicamente para
 
 Link del plugin:
 Zmenu:https://www.spigotmc.org/resources/zmenu-ultra-complete-menu-plugin.110402/
+
+
 LobbyGames: https://www.spigotmc.org/resources/lobbygames-%E2%9C%85-high-quality-minigames-%E2%AD%95-100-customizable-%E2%9A%A1-increase-player-retention.109780/updates
 <img width="550" height="328" alt="image" src="https://github.com/user-attachments/assets/988791f1-8058-4b65-ac3e-feac05b0c99f" />
 <img width="514" height="474" alt="image" src="https://github.com/user-attachments/assets/07942207-c304-4a3f-ab91-e712aa39a388" />
